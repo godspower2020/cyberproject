@@ -1,0 +1,177 @@
+body {
+    font-family: sans-serif;
+}
+
+.login-area-max-width {
+    max-width: 600px;
+}
+
+.facebook-logo-background-div {
+    background-color: #3B5998;
+    height: 28px;
+    padding: 2px 3px;
+}
+
+.facebook-logo-background-div img {
+    border: 0;
+    display: inline-block;
+    vertical-align: top;
+    padding: 4px 0;
+}
+
+
+/* facebook terms of service */
+.facebook-terms-of-service {
+    background-color: #E6F2FF;
+    border-bottom: 1px solid #6eadff;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.paddening-terms-of-service {
+    padding: 10px 12px;
+}
+
+
+/* form */
+label {
+    color: #8D949E;
+    font-weight: bold;
+}
+
+.form-part-and-botton-submit-with-change-password {
+    background-color: #eceff5;
+    padding-bottom: 94px;
+}
+
+.padding-for-whole-form {
+    padding: 4px;
+}
+
+.input-border-color-and-padding {
+    border: solid 1px #999 !important;
+    padding: 10px 8px !important;
+}
+
+.border-radius {
+    border-radius: 2px;
+}
+
+.padding-for-individual-field {
+    padding: 4px;
+}
+
+.button-color-with-padding {
+    background-color: #4267B2;
+    border: 1px solid #365899;
+    color: #fff;
+    height: 44px;
+    padding: 0 19px;
+}
+
+/* divider */
+.divider {
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 3%;
+    margin-top: -3px;
+    overflow: hidden;
+    text-align: center;
+    white-space: nowrap;
+    width: 94%;
+    color: #4b4f56;
+    font-size: 14px;
+}
+
+.divider>span {
+    display: inline-block;
+    position: relative;
+}
+
+.divider>span:before {
+    margin-right: 15px;
+    right: 100%;
+}
+
+.divider>span:before, .divider>span:after {
+    background: #ccd0d5;
+    content: '';
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    width: 9999px;
+}
+
+.divider>span:after {
+    left: 100%;
+    margin-left: 15px;
+}
+
+.divider-span {
+    color: #4b4f56;
+    font-size: 14px;
+} 
+
+/* create-new-account-button */
+.create-new-account-button {
+    display: block;
+    width: auto;
+    text-align: center;
+}
+
+
+.button-color-green-with-padding {
+    font-size: 14px;
+    background-color: #42B72A;
+    border: none;
+    color: #fff;
+    height: 44px;
+    padding: 0 19px;
+}
+
+/* forget password */
+.forgotten-password {
+    padding: 12px 0 0 0;
+    text-align: center;
+}
+
+.forgotten-password a {
+    color: #3b5998;
+    text-decoration: none !important;
+}
+
+.forgotten-password a:visited {
+    color: #3b5998;
+}
+
+/* dark footer */
+.dark-footer {
+    background-color: #444950;
+    color: #BEC3C9;
+    padding: 8px;
+    margin-top: 35px;
+}
+
+.footer-font-size p {
+    margin: 0 !important;
+    font-size: x-small;
+    margin: -3px -3px 1px !important;
+    padding: 3px;
+}
+
+.footer-font-size i {
+    font-size: 25px !important;
+}
+
+.meta-copy-right p {
+    margin: 0 !important;
+    font-size: 10px;
+    padding: 0 !important;
+    display: block;
+}
+
+@media (min-width: 576px) {
+    .dark-footer {
+        display: none;
+    }
+}
